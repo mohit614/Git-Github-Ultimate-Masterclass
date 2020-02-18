@@ -12,3 +12,11 @@ reinitalizing a directory inside already initialized git directory
 ------
 git init --separate-git-dir /new-directory/
 
+Pushing first time to remote
+--------------
+git add.
+git remote remove origin if $git remote -v -> gives something
+git  remot add origin <url of repo>
+git push --set-upstream origin master
+----
+
