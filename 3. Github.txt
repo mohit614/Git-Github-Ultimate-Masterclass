@@ -6,3 +6,9 @@ git remote add origin https://github.com/gittysachin/Git-Github-Ultimate-Masterc
 git remote -v
 
 git push -u origin master --tags       /// -u sets connection between our local repository and remote repo
+
+
+reinitalizing a directory inside already initialized git directory
+------
+git init --separate-git-dir /new-directory/
+
